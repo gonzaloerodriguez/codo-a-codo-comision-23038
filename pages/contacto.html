@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/contacto.css" />
+    <script
+      src="https://kit.fontawesome.com/9558700994.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="/"><img src="../img/logo.png" alt="logo"></a>
+
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="./sucursales.html">Sucursales</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <aside class="panel">
+        <ul class="menu">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="./sucursales.html">Sucursales</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+      </aside>
+      <button class="btn-panel hamburger hamburger--vortex" type="button">
+        <span class="hamburger-box">
+          <span class="hamb panel-btn hamburger-inner"></span>
+        </span>
+      </button>
+    </header>
+    <h1>Contactanos</h1>
+    <section id="cont">
+      <section id="formulario">
+        <form action="#" method="get">
+          <fieldset>
+            <legend><h2>Envianos un comentario</h2></legend>
+            <label for="name"><p>Nombre</p></label
+            ><!-- el texto del <label></label> esta entre <p></p> para que se adapte al css y el text-align: center;-->
+            <input
+              type="text"
+              id="name"
+              name="name"
+              maxlength="50"
+              placeholder="Tu nombre aqui..."
+            />
+            <label for="lastname"><p>Apellido</p></label>
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Tu apellido aqui..."
+            />
+            <label for="email"><p>E-Mail</p></label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="tuemail@gmail.com"
+            />
+            <label for="gender"><p>Genero</p></label>
+            <input type="radio" name="gender" id="gender" value="F" />Femenino
+            <input type="radio" name="gender" id="gender" value="M" />Masculino
+            <input
+              type="radio"
+              name="gender"
+              id="gender"
+              value="O"
+              checked
+            />Otro
+            <br />
+            <br />
+            <label for="desciption"><p>Comentanos tu idea</p></label>
+            <textarea
+              name="desciption"
+              id="desciption"
+              cols="30"
+              rows="10"
+              placeholder="Escriba aqui..."
+            ></textarea>
+            <br />
+          </fieldset>
+        </form>
+      </section>
+      <section id="redes">
+        <fieldset>
+          <legend><h2>Nuestas redes sociales</h2></legend>
+          <h2>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a> Instagram
+          </h2>
+          <br />
+          <h2>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a> Youtube
+          </h2>
+          <br />
+          <h2>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a> Facebook
+          </h2>
+          <br />
+          <h2>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a> TikTok
+          </h2>
+          <br />
+          <h2>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a> Twitter
+          </h2>
+        </fieldset>
+      </section>
+    </section>
+    <script src="../index.js"></script>
+  </body>
+</html>

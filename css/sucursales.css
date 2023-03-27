@@ -1,0 +1,32 @@
+body {
+  background-color: #732001;
+}
+
+h1,
+h2 {
+  color: #A67C2E;
+}
+
+section {
+  margin-bottom: 10px;
+}
+
+section {
+  background-color: #312821;
+  color: #F2F2F2;
+  margin: 20px;
+  padding: 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h1 {
+  font-size: 44px;
+}
