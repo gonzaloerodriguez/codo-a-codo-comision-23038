@@ -64,8 +64,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #732002;
-    text-decoration: underline;
+    color: #a67c2e;
     font-weight: bold;
     font-size: 3rem;
 }
@@ -95,7 +94,7 @@ nav ul li a:hover {
     z-index: 997;
     right: 0;
     left: 0;
-    top: 35.95rem;
+    top: 0;
     bottom: 0;
     background-color: rgba(34, 34, 34, 0.85);
     text-align: center;
@@ -141,6 +140,21 @@ nav ul li a:hover {
     font-size: 40px;
 }
 
+header aside .footerPanel {
+    display: flex;
+    width: 80%;
+}
+
+.footerPanel a img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
 .menu {
     width: inherit;
     display: flex;
@@ -162,7 +176,7 @@ nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     background-color: #a67c2e;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .card {
@@ -176,9 +190,11 @@ nav ul li a:hover {
     transform: scaleY(0.9);
 }
 
+
+
 .card img {
-    width: 80rem;
-    height: 80rem;
+    width: 39rem;
+    height: 39rem;
 }
 
 .card-text {
@@ -202,11 +218,71 @@ nav ul li a:hover {
     margin: 0;
 }
 
-@media screen and (max-width: 768px) {
-    .card {
-        width: 100%;
-    }
+footer {
+    background-color: black;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+
+footer section a img {
+    height: 70px;
+    width: 70px;
+    color: #fff;
+
+}
+
+.sucursales {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sucursales h2 {
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+
+.sucursales a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+}
+
+.sucursales a:hover {
+    text-decoration: none;
+    color: #a67c2e;
+    font-size: 40px;
+}
+
+
+.rrss {
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rrss a {
+    margin-left: 5%;
+}
+
+.rrss a img {
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.rrss a img:hover {
+    transform: scaleY(1.1);
+
+
+}
+
+
+
 
 
 @media screen and (max-width: 1024px) {
@@ -220,4 +296,22 @@ nav ul li a:hover {
         display: none;
     }
 
+    footer {
+        display: none;
+    }
+
+    .card img {
+        height: 21rem;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    .card img {
+        height: 15rem;
+    }
+
+    .card-text h2 {
+        font-size: 12px;
+    }
 }

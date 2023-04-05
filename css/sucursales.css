@@ -2,16 +2,20 @@ body {
   background-color: #732001;
 }
 
+h1 {
+  margin-left: 1%;
+}
+
 h1,
 h2 {
   color: #A67C2E;
 }
 
-section {
+.sucursal {
   margin-bottom: 10px;
 }
 
-section {
+.sucursal {
   background-color: #312821;
   color: #F2F2F2;
   margin: 20px;
