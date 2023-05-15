@@ -176,7 +176,7 @@ header aside .footerPanel {
     display: flex;
     flex-wrap: wrap;
     background-color: #a67c2e;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .card {
