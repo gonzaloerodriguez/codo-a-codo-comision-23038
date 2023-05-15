@@ -7,42 +7,44 @@ html {
 
 body {
     background-color: #732001;
-  }
-
-.contenedor{
-    display: flex;
-    justify-content: space-evenly;
 }
 
-h1, h2 {
+.contenedor {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+h1,
+h2 {
     color: #A67C2E;
     padding-left: 1rem;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-.productos{
-   background-color: #312821;
-   padding-bottom: 3rem;
+.productos {
+    background-color: #312821;
+    padding-bottom: 3rem;
+    margin-bottom: 1%;
 }
 
-p{
+p {
     color: white;
     font-size: 1.5rem;
 }
 
 
-.tarjeta{
-    position:relative;
+.tarjeta {
+    position: relative;
     display: inline-block;
 }
 
-.textoT{
-    position:absolute;
-    top:-10px;
+.textoT {
+    position: absolute;
+    top: -10px;
     left: 5px;
     -webkit-text-stroke: 0.8px black;
 }
-

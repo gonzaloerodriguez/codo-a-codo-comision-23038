@@ -102,3 +102,7 @@ textarea {
 .error {
     border: solid 2px red;
 }
+
+main {
+    height: 100vh;
+}

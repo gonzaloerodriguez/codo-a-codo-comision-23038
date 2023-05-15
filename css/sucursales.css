@@ -1,5 +1,6 @@
 body {
   background-color: #732001;
+
 }
 
 h1 {
@@ -21,6 +22,7 @@ h2 {
   margin: 20px;
   padding: 20px;
   float: left;
+  width: max-content;
 }
 
 p {
@@ -34,4 +36,14 @@ h2 {
 
 h1 {
   font-size: 44px;
+}
+
+.mapsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main {
+  height: 100vh;
 }
