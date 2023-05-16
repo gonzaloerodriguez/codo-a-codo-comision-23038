@@ -9,6 +9,20 @@ fieldset {
     border-color: #ffffff00;
 }
 
+fieldset a {
+    text-decoration: none;
+}
+
+fieldset a h2 {
+    transition: all .2s ease-in-out;
+}
+
+fieldset a h2:hover {
+    color: #732001;
+    transform: scale(1.3);
+
+}
+
 h1,
 h2 {
     color: #A67C2E;
