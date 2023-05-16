@@ -69,8 +69,6 @@ nav ul li a:hover {
     font-size: 3rem;
 }
 
-
-
 .btn-panel {
     position: fixed;
     z-index: 999;
@@ -124,7 +122,6 @@ nav ul li a:hover {
     transform: translate(0, 0);
 }
 
-
 .panel li {
     width: inherit;
 }
@@ -149,11 +146,6 @@ header aside .footerPanel {
     width: 50px;
     height: 50px;
 }
-
-
-
-
-
 
 .menu {
     width: inherit;
@@ -194,7 +186,7 @@ header aside .footerPanel {
 
 .card img {
     width: 39rem;
-    height: 39rem;
+    height: 23rem;
 }
 
 .card-text {

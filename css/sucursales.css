@@ -17,11 +17,12 @@ h2 {
 .sucursal {
   background-color: #312821;
   color: #F2F2F2;
-  margin: 20px;
-  padding: 20px;
+  margin: 2%;
+  padding: .7%;
   float: left;
   width: max-content;
   width: 33, 33%;
+  border-radius: 5%;
 }
 
 p {
@@ -40,7 +41,7 @@ h1 {
 .mapsContainer {
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap; */
+
 
 
 }
