@@ -10,19 +10,19 @@ const cardIndex = [
   },
   {
     img: "./img/chinchu.webp",
-    h2: "Cortes con hueso",
-  },
-  {
-    img: "./img/provo1.webp",
-    h2: "Embutidos frescos",
-  },
-  {
-    img: "./img/salchicha.webp",
     h2: "Achuras",
   },
   {
-    img: "./img/tomahowk.webp",
+    img: "./img/provo1.webp",
     h2: "Queso para parrilla",
+  },
+  {
+    img: "./img/salchicha.webp",
+    h2: "Salchicha parrillera",
+  },
+  {
+    img: "./img/tomahowk.webp",
+    h2: "Ojo de bife con hueso",
   },
 ];
 
