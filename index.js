@@ -3,26 +3,32 @@ const cardIndex = [
   {
     img: "./img/colita_cuadril.webp",
     h2: "Piezas enteras",
+    link: "./pages/productos.html#producto1",
   },
   {
     img: "./img/bife_ancho.webp",
     h2: "Cortes sin hueso",
+    link: "./pages/productos.html#producto2",
   },
   {
     img: "./img/chinchu.webp",
     h2: "Achuras",
+    link: "./pages/productos.html#producto5",
   },
   {
     img: "./img/provo1.webp",
     h2: "Queso para parrilla",
+    link: "./pages/productos.html#producto6",
   },
   {
     img: "./img/salchicha.webp",
-    h2: "Salchicha parrillera",
+    h2: "Embutidos",
+    link: "./pages/productos.html#producto4",
   },
   {
     img: "./img/tomahowk.webp",
     h2: "Ojo de bife con hueso",
+    link: "./pages/productos.html#producto3",
   },
 ];
 
@@ -52,7 +58,7 @@ function renderizarCards() {
     $cardText.classList.add("card-text");
     $img.src = card.img;
     $h2.textContent = card.h2;
-    $link.href = "./pages/productos.html";
+    $link.href = card.link;
 
     console.log($link);
 
