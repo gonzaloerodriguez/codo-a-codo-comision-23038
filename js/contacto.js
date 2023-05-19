@@ -50,22 +50,23 @@ $comment.addEventListener("keydown", () => {
 $formulario.addEventListener("submit", (e) => {
   e.preventDefault();
 
-  //creo las constantes que van a contener los datos personales ingresados por el usuario.
+  //creo las constantes que van a contener los datos ingresados por el usuario.
   const name = document.getElementById("name").value;
   const lastname = document.getElementById("lastname").value;
   const correo = document.getElementById("email").value;
+  const comentario = $comment.value;
 
   //armo el objeto con los datos ingresados en el formulario.
   const datos = {
     nombre: name,
     apellido: lastname,
     email: correo,
+    comentario,
   };
 
   //los muestro en consola.
   console.log(datos);
 
-  //   $loader.classList.remove("none");
   axios
     .post("https://formsubmit.co/ajax/gonzalo-ezequiel@hotmail.com", datos)
     .then(function (response) {
