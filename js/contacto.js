@@ -5,13 +5,11 @@ const $email = doc.getElementById("email");
 const $comment = doc.getElementById("comment");
 const $formulario = doc.getElementById("formulario");
 const $btn = doc.getElementById("btn");
-const regex =
-  /^[-a-zA-ZáéíóúÁÉÍÓÚüÜñÑ]+(?:\W+[-a-zA-ZáéíóúÁÉÍÓÚüÜñÑ]+){1,5}(?:\W+[-\s[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ]]+)?$/;
-
+const regex = /^[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ]+(?:\s[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ]+)*$/;
 console.log(axios);
 
 $name.addEventListener("keydown", () => {
-  if ($name.value.length < 3 || regex.test($name.value)) {
+  if ($name.value.length < 3 || regex.test($name.value) === false) {
     $name.classList.add("error");
     $btn.setAttribute("disabled", "");
   } else {
@@ -20,7 +18,7 @@ $name.addEventListener("keydown", () => {
   }
 });
 $lastname.addEventListener("keydown", () => {
-  if ($lastname.value.length < 4 || regex.test($lastname.value)) {
+  if ($lastname.value.length < 3 || regex.test($lastname.value) === false) {
     $lastname.classList.add("error");
     $btn.setAttribute("disabled", "");
   } else {
