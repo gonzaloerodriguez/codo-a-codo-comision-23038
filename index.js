@@ -32,9 +32,14 @@ const cardIndex = [
   },
 ];
 
-const navSlide = (panelBtn, panel) => {
+const navSlide = (panelBtn, panel, hambBox, btnPanel) => {
   d.addEventListener("click", (e) => {
-    if (e.target.matches(panelBtn) || e.target.matches(`${panelBtn}`)) {
+    if (
+      e.target.matches(panelBtn) ||
+      e.target.matches(panel) ||
+      e.target.matches(hambBox) ||
+      e.target.matches(btnPanel)
+    ) {
       d.querySelector(panel).classList.toggle("is-active");
       d.querySelector(panelBtn).classList.toggle("is-active");
     }
@@ -42,7 +47,7 @@ const navSlide = (panelBtn, panel) => {
 };
 
 d.addEventListener("DOMContentLoaded", (e) => {
-  navSlide(".btn-panel", ".panel");
+  navSlide(".btn-panel", ".panel", ".hamburger-box", ".panel-btn");
 });
 
 function renderizarCards() {
